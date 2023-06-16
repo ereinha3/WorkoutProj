@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D449EA42A2AB27000A48B78 /* SpecifierVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D449EA32A2AB27000A48B78 /* SpecifierVC.swift */; };
+		9D449EA62A2ACA9000A48B78 /* GoalGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D449EA52A2ACA9000A48B78 /* GoalGroups.swift */; };
+		9D449EA82A2ACAD500A48B78 /* ExcerciseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D449EA72A2ACAD500A48B78 /* ExcerciseList.swift */; };
+		9D8A2D162A2561150036BAA9 /* MuscleSelectorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8A2D152A2561150036BAA9 /* MuscleSelectorVC.swift */; };
+		9D8A2D182A25C00B0036BAA9 /* RepSelectorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8A2D172A25C00B0036BAA9 /* RepSelectorVC.swift */; };
+		9DF5FC632A11F4FC00210778 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF5FC622A11F4FC00210778 /* AppDelegate.swift */; };
+		9DF5FC652A11F4FC00210778 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF5FC642A11F4FC00210778 /* SceneDelegate.swift */; };
+		9DF5FC6C2A11F4FD00210778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DF5FC6B2A11F4FD00210778 /* Assets.xcassets */; };
+		9DF5FC7A2A11F4FD00210778 /* MuscleMeV2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF5FC792A11F4FD00210778 /* MuscleMeV2Tests.swift */; };
+		9DF5FC842A11F4FD00210778 /* MuscleMeV2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF5FC832A11F4FD00210778 /* MuscleMeV2UITests.swift */; };
+		9DF5FC862A11F4FD00210778 /* MuscleMeV2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF5FC852A11F4FD00210778 /* MuscleMeV2UITestsLaunchTests.swift */; };
+		9DF5FC952A11F9F900210778 /* MMButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF5FC942A11F9F900210778 /* MMButton.swift */; };
+		9DF5FC972A11FA2400210778 /* WorkoutBuildVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF5FC962A11FA2400210778 /* WorkoutBuildVC.swift */; };
+		9DF5FC992A11FE6F00210778 /* BuildVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF5FC982A11FE6F00210778 /* BuildVC.swift */; };
+		9DF5FC9B2A1998A900210778 /* MuscleGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF5FC9A2A1998A900210778 /* MuscleGroups.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DF5FC762A11F4FD00210778 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DF5FC572A11F4FC00210778 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DF5FC5E2A11F4FC00210778;
+			remoteInfo = MuscleMeV2;
+		};
+		9DF5FC802A11F4FD00210778 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DF5FC572A11F4FC00210778 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DF5FC5E2A11F4FC00210778;
+			remoteInfo = MuscleMeV2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D449EA32A2AB27000A48B78 /* SpecifierVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecifierVC.swift; sourceTree = "<group>"; };
+		9D449EA52A2ACA9000A48B78 /* GoalGroups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalGroups.swift; sourceTree = "<group>"; };
+		9D449EA72A2ACAD500A48B78 /* ExcerciseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcerciseList.swift; sourceTree = "<group>"; };
+		9D8A2D152A2561150036BAA9 /* MuscleSelectorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleSelectorVC.swift; sourceTree = "<group>"; };
+		9D8A2D172A25C00B0036BAA9 /* RepSelectorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepSelectorVC.swift; sourceTree = "<group>"; };
+		9DF5FC5F2A11F4FC00210778 /* MuscleMeV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuscleMeV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DF5FC622A11F4FC00210778 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9DF5FC642A11F4FC00210778 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9DF5FC6B2A11F4FD00210778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DF5FC702A11F4FD00210778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DF5FC752A11F4FD00210778 /* MuscleMeV2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuscleMeV2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DF5FC792A11F4FD00210778 /* MuscleMeV2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleMeV2Tests.swift; sourceTree = "<group>"; };
+		9DF5FC7F2A11F4FD00210778 /* MuscleMeV2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuscleMeV2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DF5FC832A11F4FD00210778 /* MuscleMeV2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleMeV2UITests.swift; sourceTree = "<group>"; };
+		9DF5FC852A11F4FD00210778 /* MuscleMeV2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleMeV2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9DF5FC942A11F9F900210778 /* MMButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMButton.swift; sourceTree = "<group>"; };
+		9DF5FC962A11FA2400210778 /* WorkoutBuildVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutBuildVC.swift; sourceTree = "<group>"; };
+		9DF5FC982A11FE6F00210778 /* BuildVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildVC.swift; sourceTree = "<group>"; };
+		9DF5FC9A2A1998A900210778 /* MuscleGroups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleGroups.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DF5FC5C2A11F4FC00210778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DF5FC722A11F4FD00210778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DF5FC7C2A11F4FD00210778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DF5FC562A11F4FC00210778 = {
+			isa = PBXGroup;
+			children = (
+				9DF5FC612A11F4FC00210778 /* MuscleMeV2 */,
+				9DF5FC782A11F4FD00210778 /* MuscleMeV2Tests */,
+				9DF5FC822A11F4FD00210778 /* MuscleMeV2UITests */,
+				9DF5FC602A11F4FC00210778 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DF5FC602A11F4FC00210778 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DF5FC5F2A11F4FC00210778 /* MuscleMeV2.app */,
+				9DF5FC752A11F4FD00210778 /* MuscleMeV2Tests.xctest */,
+				9DF5FC7F2A11F4FD00210778 /* MuscleMeV2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DF5FC612A11F4FC00210778 /* MuscleMeV2 */ = {
+			isa = PBXGroup;
+			children = (
+				9DF5FC622A11F4FC00210778 /* AppDelegate.swift */,
+				9DF5FC642A11F4FC00210778 /* SceneDelegate.swift */,
+				9DF5FC962A11FA2400210778 /* WorkoutBuildVC.swift */,
+				9DF5FC982A11FE6F00210778 /* BuildVC.swift */,
+				9D8A2D152A2561150036BAA9 /* MuscleSelectorVC.swift */,
+				9D449EA32A2AB27000A48B78 /* SpecifierVC.swift */,
+				9D8A2D172A25C00B0036BAA9 /* RepSelectorVC.swift */,
+				9DF5FC9A2A1998A900210778 /* MuscleGroups.swift */,
+				9D449EA72A2ACAD500A48B78 /* ExcerciseList.swift */,
+				9D449EA52A2ACA9000A48B78 /* GoalGroups.swift */,
+				9DF5FC942A11F9F900210778 /* MMButton.swift */,
+				9DF5FC6B2A11F4FD00210778 /* Assets.xcassets */,
+				9DF5FC702A11F4FD00210778 /* Info.plist */,
+			);
+			path = MuscleMeV2;
+			sourceTree = "<group>";
+		};
+		9DF5FC782A11F4FD00210778 /* MuscleMeV2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9DF5FC792A11F4FD00210778 /* MuscleMeV2Tests.swift */,
+			);
+			path = MuscleMeV2Tests;
+			sourceTree = "<group>";
+		};
+		9DF5FC822A11F4FD00210778 /* MuscleMeV2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				9DF5FC832A11F4FD00210778 /* MuscleMeV2UITests.swift */,
+				9DF5FC852A11F4FD00210778 /* MuscleMeV2UITestsLaunchTests.swift */,
+			);
+			path = MuscleMeV2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DF5FC5E2A11F4FC00210778 /* MuscleMeV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DF5FC892A11F4FD00210778 /* Build configuration list for PBXNativeTarget "MuscleMeV2" */;
+			buildPhases = (
+				9DF5FC5B2A11F4FC00210778 /* Sources */,
+				9DF5FC5C2A11F4FC00210778 /* Frameworks */,
+				9DF5FC5D2A11F4FC00210778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MuscleMeV2;
+			productName = MuscleMeV2;
+			productReference = 9DF5FC5F2A11F4FC00210778 /* MuscleMeV2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DF5FC742A11F4FD00210778 /* MuscleMeV2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DF5FC8C2A11F4FD00210778 /* Build configuration list for PBXNativeTarget "MuscleMeV2Tests" */;
+			buildPhases = (
+				9DF5FC712A11F4FD00210778 /* Sources */,
+				9DF5FC722A11F4FD00210778 /* Frameworks */,
+				9DF5FC732A11F4FD00210778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DF5FC772A11F4FD00210778 /* PBXTargetDependency */,
+			);
+			name = MuscleMeV2Tests;
+			productName = MuscleMeV2Tests;
+			productReference = 9DF5FC752A11F4FD00210778 /* MuscleMeV2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9DF5FC7E2A11F4FD00210778 /* MuscleMeV2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DF5FC8F2A11F4FD00210778 /* Build configuration list for PBXNativeTarget "MuscleMeV2UITests" */;
+			buildPhases = (
+				9DF5FC7B2A11F4FD00210778 /* Sources */,
+				9DF5FC7C2A11F4FD00210778 /* Frameworks */,
+				9DF5FC7D2A11F4FD00210778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DF5FC812A11F4FD00210778 /* PBXTargetDependency */,
+			);
+			name = MuscleMeV2UITests;
+			productName = MuscleMeV2UITests;
+			productReference = 9DF5FC7F2A11F4FD00210778 /* MuscleMeV2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DF5FC572A11F4FC00210778 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					9DF5FC5E2A11F4FC00210778 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					9DF5FC742A11F4FD00210778 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 9DF5FC5E2A11F4FC00210778;
+					};
+					9DF5FC7E2A11F4FD00210778 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 9DF5FC5E2A11F4FC00210778;
+					};
+				};
+			};
+			buildConfigurationList = 9DF5FC5A2A11F4FC00210778 /* Build configuration list for PBXProject "MuscleMeV2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DF5FC562A11F4FC00210778;
+			productRefGroup = 9DF5FC602A11F4FC00210778 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DF5FC5E2A11F4FC00210778 /* MuscleMeV2 */,
+				9DF5FC742A11F4FD00210778 /* MuscleMeV2Tests */,
+				9DF5FC7E2A11F4FD00210778 /* MuscleMeV2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DF5FC5D2A11F4FC00210778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DF5FC6C2A11F4FD00210778 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DF5FC732A11F4FD00210778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DF5FC7D2A11F4FD00210778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DF5FC5B2A11F4FC00210778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D449EA62A2ACA9000A48B78 /* GoalGroups.swift in Sources */,
+				9DF5FC632A11F4FC00210778 /* AppDelegate.swift in Sources */,
+				9DF5FC652A11F4FC00210778 /* SceneDelegate.swift in Sources */,
+				9D449EA82A2ACAD500A48B78 /* ExcerciseList.swift in Sources */,
+				9D449EA42A2AB27000A48B78 /* SpecifierVC.swift in Sources */,
+				9DF5FC992A11FE6F00210778 /* BuildVC.swift in Sources */,
+				9DF5FC952A11F9F900210778 /* MMButton.swift in Sources */,
+				9D8A2D162A2561150036BAA9 /* MuscleSelectorVC.swift in Sources */,
+				9DF5FC9B2A1998A900210778 /* MuscleGroups.swift in Sources */,
+				9DF5FC972A11FA2400210778 /* WorkoutBuildVC.swift in Sources */,
+				9D8A2D182A25C00B0036BAA9 /* RepSelectorVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DF5FC712A11F4FD00210778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DF5FC7A2A11F4FD00210778 /* MuscleMeV2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DF5FC7B2A11F4FD00210778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DF5FC842A11F4FD00210778 /* MuscleMeV2UITests.swift in Sources */,
+				9DF5FC862A11F4FD00210778 /* MuscleMeV2UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DF5FC772A11F4FD00210778 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DF5FC5E2A11F4FC00210778 /* MuscleMeV2 */;
+			targetProxy = 9DF5FC762A11F4FD00210778 /* PBXContainerItemProxy */;
+		};
+		9DF5FC812A11F4FD00210778 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DF5FC5E2A11F4FC00210778 /* MuscleMeV2 */;
+			targetProxy = 9DF5FC802A11F4FD00210778 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9DF5FC872A11F4FD00210778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DF5FC882A11F4FD00210778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DF5FC8A2A11F4FD00210778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UX97ER3242;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MuscleMeV2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = erein.MuscleMeV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DF5FC8B2A11F4FD00210778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UX97ER3242;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MuscleMeV2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = erein.MuscleMeV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9DF5FC8D2A11F4FD00210778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UX97ER3242;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = erein.MuscleMeV2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuscleMeV2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MuscleMeV2";
+			};
+			name = Debug;
+		};
+		9DF5FC8E2A11F4FD00210778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UX97ER3242;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = erein.MuscleMeV2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuscleMeV2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MuscleMeV2";
+			};
+			name = Release;
+		};
+		9DF5FC902A11F4FD00210778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UX97ER3242;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = erein.MuscleMeV2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MuscleMeV2;
+			};
+			name = Debug;
+		};
+		9DF5FC912A11F4FD00210778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UX97ER3242;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = erein.MuscleMeV2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MuscleMeV2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DF5FC5A2A11F4FC00210778 /* Build configuration list for PBXProject "MuscleMeV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DF5FC872A11F4FD00210778 /* Debug */,
+				9DF5FC882A11F4FD00210778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DF5FC892A11F4FD00210778 /* Build configuration list for PBXNativeTarget "MuscleMeV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DF5FC8A2A11F4FD00210778 /* Debug */,
+				9DF5FC8B2A11F4FD00210778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DF5FC8C2A11F4FD00210778 /* Build configuration list for PBXNativeTarget "MuscleMeV2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DF5FC8D2A11F4FD00210778 /* Debug */,
+				9DF5FC8E2A11F4FD00210778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DF5FC8F2A11F4FD00210778 /* Build configuration list for PBXNativeTarget "MuscleMeV2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DF5FC902A11F4FD00210778 /* Debug */,
+				9DF5FC912A11F4FD00210778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DF5FC572A11F4FC00210778 /* Project object */;
+}
